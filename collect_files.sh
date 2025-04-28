@@ -2,7 +2,7 @@
 
 input_dir=$1
 output_dir=$2
-if [[ $3 == --max_depth && -n $4 && $4 -ge 0]]; then
+if [[ $3 == --max_depth && -n $4 && $4 -ge 0 ]]; then
   extra_args="-maxdepth $4"
 fi
 declare -i count
